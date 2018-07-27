@@ -1,0 +1,10 @@
+.countrySelect {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.countrySelect img {
+    width: 40px;
+}

@@ -1,0 +1,46 @@
+.medalInput {
+    display: flex;
+    align-items: center;
+}
+.medalInput.static {
+    align-items: baseline;
+}
+
+.medalInput .medalIcon {
+    margin-right: 5px;
+}
+
+.medalIcon {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.medalIcon.bronze {
+    background: #C39457;
+    border-color: #C39457;
+}
+.medalIcon.silver {
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+}
+.medalIcon.gold {
+    background: #D7AD3A;
+    border-color: #D7AD3A;
+}
+
+.medalInput input {
+    width: 30px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.medalInput input, .medalInput.static p {
+    margin: 0;
+    font-weight: bold;
+    padding-left: 5px;
+}

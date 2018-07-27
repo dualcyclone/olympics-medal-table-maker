@@ -1,0 +1,34 @@
+form.country {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+form.country * {
+    margin-right: 20px;
+}
+
+form.country *:last-child {
+    margin-right: 0;
+}
+
+td.name {
+    width: 190px;
+}
+
+td.flag {
+    width: 74px;
+}
+
+td.medal {
+    width: 70px;
+}
+
+td.total {
+    width: 90px;
+}
+
+td.delete {
+    color: #B10004;
+    cursor: pointer;
+}
